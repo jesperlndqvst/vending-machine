@@ -1,0 +1,11 @@
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/bin/Debug/netcoreapp3.1/vending-machine
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.deps.json
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.runtimeconfig.json
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.runtimeconfig.dev.json
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.dll
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.pdb
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/obj/Debug/netcoreapp3.1/vending-machine.csprojAssemblyReference.cache
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/obj/Debug/netcoreapp3.1/vending-machine.AssemblyInfoInputs.cache
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/obj/Debug/netcoreapp3.1/vending-machine.AssemblyInfo.cs
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/obj/Debug/netcoreapp3.1/vending-machine.dll
+/Users/jesperlndqvst/RiderProjects/vending-machine/vending-machine/obj/Debug/netcoreapp3.1/vending-machine.pdb
