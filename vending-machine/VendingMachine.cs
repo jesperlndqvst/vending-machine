@@ -28,7 +28,7 @@ namespace vending_machine
                 View.PressQToGoBack();
                 var userInput = Console.ReadLine();
                 if (userInput != null && userInput.ToLower() == "q")
-                    break;
+                    return;
                 
                 switch (userInput)
                 {
@@ -50,9 +50,9 @@ namespace vending_machine
 
                             if (userInput == null || userInput.ToLower() != "q") continue;
                             StartMenu();
-                            break;
+                            return;
                         }
-                        break;
+                   
                 }
             }
         }
@@ -72,6 +72,7 @@ namespace vending_machine
                 if (userInput != null && userInput.ToLower() == "q")
                 {
                     StartMenu();
+                    return;
                 }
 
                 var isNumber = Int32.TryParse(userInput, out var chosenItem);
@@ -79,6 +80,7 @@ namespace vending_machine
                 {
                     View.NotANumber();
                     ChooseItem();
+                    return;
                 }
 
                 BuyItem(chosenItem);

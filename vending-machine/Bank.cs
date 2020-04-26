@@ -22,7 +22,7 @@ namespace vending_machine
 
                 var userInput = Console.ReadLine();
 
-                if (userInput.ToLower() == "q")
+                if (userInput != null && userInput.ToLower() == "q")
                     return;
 
                 switch (userInput)
@@ -44,7 +44,7 @@ namespace vending_machine
                                 break;
                         }
 
-                        break;
+                        return;
                 }
             }
         }
