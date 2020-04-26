@@ -28,7 +28,6 @@ namespace vending_machine
         public void NotANumber()
         {
             Console.WriteLine("YOU MUST ENTER A NUMBER. TRY AGAIN!");
-            Console.WriteLine();
         }
 
         public void DisplayGoodsItems(GoodsItem item)

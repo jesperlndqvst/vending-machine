@@ -76,7 +76,6 @@ namespace vending_machine
                 if (!isNumber)
                 {
                     View.NotANumber();
-                    ChooseItem();
                 } 
 
                 BuyItem(chosenItem);
@@ -108,8 +107,8 @@ namespace vending_machine
             }
 
             View.GoodsItemSummary(item);
-            var isSure = false;
-            while (!isSure)
+            
+            while (true)
             {
                 View.AreYouSure();
                 var userChoice = Console.ReadLine()?.ToLower();
@@ -117,7 +116,7 @@ namespace vending_machine
                 switch (userChoice)
                 {
                     case "y":
-                        isSure = true;
+                        ValidatePayment(item);
                         break;
                     case "n":
                         ChooseItem();
@@ -126,9 +125,8 @@ namespace vending_machine
                         View.InvalidOption();
                         break;
                 }
+                return;
             }
-
-            ValidatePayment(item);
         }
 
         private void ValidatePayment(GoodsItem item)
