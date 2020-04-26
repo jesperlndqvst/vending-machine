@@ -2,7 +2,7 @@
 
 # vending-machine
 
-A simple vending-machine console app built as a school assignment in C# .
+A simple vending-machine console app built as a school assignment in C#.
 
 ## How to use it
 
