@@ -70,18 +70,14 @@ namespace vending_machine
 
                 var userInput = Console.ReadLine();
                 if (userInput != null && userInput.ToLower() == "q")
-                {
-                    StartMenu();
                     return;
-                }
-
+                
                 var isNumber = Int32.TryParse(userInput, out var chosenItem);
                 if (!isNumber)
                 {
                     View.NotANumber();
                     ChooseItem();
-                    return;
-                }
+                } 
 
                 BuyItem(chosenItem);
                 return;

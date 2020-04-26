@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2956f5b1-6edf-4a4c-9662-371d185a532d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vending-machine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vending-machine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vending-machine/Bank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/Bank.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vending-machine/VendingMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/VendingMachine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.pdb" afterDir="false" />
@@ -98,7 +97,7 @@
       <workItem from="1585746522504" duration="361000" />
       <workItem from="1586017503437" duration="8466000" />
       <workItem from="1587920898122" duration="25000" />
-      <workItem from="1587920981966" duration="5737000" />
+      <workItem from="1587920981966" duration="7795000" />
     </task>
     <servers />
   </component>
@@ -117,26 +116,26 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="609" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585500017816">
+    <state x="609" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587927910095">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="609" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1585500017816" />
-    <state width="1375" height="320" key="GridCell.Tab.0.bottom" timestamp="1587926995052">
+    <state x="609" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587927910095" />
+    <state width="1375" height="320" key="GridCell.Tab.0.bottom" timestamp="1587929009015">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1375" height="320" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587926995052" />
-    <state width="1375" height="320" key="GridCell.Tab.0.center" timestamp="1587926995051">
+    <state width="1375" height="320" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587929009015" />
+    <state width="1375" height="320" key="GridCell.Tab.0.center" timestamp="1587929009014">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1375" height="320" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587926995051" />
-    <state width="1375" height="320" key="GridCell.Tab.0.left" timestamp="1587926995051">
+    <state width="1375" height="320" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587929009014" />
+    <state width="1375" height="320" key="GridCell.Tab.0.left" timestamp="1587929009014">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1375" height="320" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587926995051" />
-    <state width="1375" height="320" key="GridCell.Tab.0.right" timestamp="1587926995051">
+    <state width="1375" height="320" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587929009014" />
+    <state width="1375" height="320" key="GridCell.Tab.0.right" timestamp="1587929009014">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1375" height="320" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587926995051" />
+    <state width="1375" height="320" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587929009014" />
     <state width="1375" height="345" key="GridCell.Tab.1.bottom" timestamp="1587926915724">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -201,6 +200,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1375" height="345" key="GridCell.Tab.4.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587926915726" />
+    <state x="527" y="272" key="RollbackChangesDialog" timestamp="1587928429120">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="527" y="272" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587928429120" />
     <state x="924" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1585396395501">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
