@@ -9,6 +9,7 @@
         <e p="Bank.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Chips.cs" t="Include" />
+        <e p="Chocolate.cs" t="Include" />
         <e p="Cola.cs" t="Include" />
         <e p="GoodsItem.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">

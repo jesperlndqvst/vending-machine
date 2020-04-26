@@ -5,7 +5,7 @@ namespace vending_machine
     public class Bank
     {
         private int Balance { get; set; }
-        public View View { get; set; }
+        private View View { get; }
 
         public Bank(View view)
         {
@@ -40,7 +40,7 @@ namespace vending_machine
                             View.PressQToGoBack();
 
                             userInput = Console.ReadLine();
-                            if (userInput.ToLower() == "q")
+                            if (userInput != null && userInput.ToLower() == "q")
                                 break;
                         }
 
@@ -49,7 +49,7 @@ namespace vending_machine
             }
         }
 
-        public void CheckBalance(User user)
+        private void CheckBalance(User user)
         {
             while (true)
             {
@@ -57,7 +57,7 @@ namespace vending_machine
                 View.PressQToGoBack();
 
                 var userInput = Console.ReadLine();
-                if (userInput.ToLower() == "q")
+                if (userInput != null && userInput.ToLower() == "q")
                     break;
             }
         }
@@ -70,7 +70,7 @@ namespace vending_machine
 
             var userInput = Console.ReadLine();
 
-            if (userInput.ToLower() == "q")
+            if (userInput != null && userInput.ToLower() == "q")
             {
                 BankMenu(user);
                 return;
@@ -85,10 +85,11 @@ namespace vending_machine
                 isNumber = Int32.TryParse(userInput, out amount);
             }
 
-            if (amount > Balance || amount < 0)
+            if (amount > Balance || amount <= 0)
             {
                 View.InvalidAmount();
                 TransferMoney(user);
+                return;
             }
 
             Balance -= amount;

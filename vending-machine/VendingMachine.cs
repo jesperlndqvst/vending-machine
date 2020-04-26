@@ -5,12 +5,13 @@ namespace vending_machine
 {
     public class VendingMachine
     {
-        public Chips chips = new Chips("CHIPS", 3, 1, 3);
-        public Cola cola = new Cola("COLA", 1, 2, 10);
-        public Peanut peanuts = new Peanut("PEANUTS", 7, 3, 10);
-        public Bank Bank { get; set; }
-        public User User { get; set; }
-        public View View { get; set; }
+        private readonly Chips _chips = new Chips("CHIPS", 3, 1, 3);
+        private readonly Cola _cola = new Cola("COLA", 1, 2, 10);
+        private readonly Peanut _peanuts = new Peanut("PEANUTS", 7, 3, 10);
+        private readonly Chocolate _chocolate = new Chocolate("CHOCOLATE", 5, 4, 4);
+        private Bank Bank { get; }
+        private User User { get; }
+        private View View { get; }
 
         public VendingMachine(User user, Bank bank, View view)
         {
@@ -26,7 +27,7 @@ namespace vending_machine
                 View.MainMenuOptions();
                 View.PressQToGoBack();
                 var userInput = Console.ReadLine();
-                if (userInput.ToLower() == "q")
+                if (userInput != null && userInput.ToLower() == "q")
                     break;
                 
                 switch (userInput)
@@ -47,30 +48,28 @@ namespace vending_machine
                             View.PressQToGoBack();
                             userInput = Console.ReadLine();
 
-                            if (userInput.ToLower() == "q")
-                            {
-                                StartMenu();
-                                break;
-                            }
+                            if (userInput == null || userInput.ToLower() != "q") continue;
+                            StartMenu();
+                            break;
                         }
-
                         break;
                 }
             }
         }
 
-        public void ChooseItem()
+        private void ChooseItem()
         {
             View.WhatDoYouWantToBuy();
             while (true)
             {
-                View.DisplayGoodsItems(chips);
-                View.DisplayGoodsItems(cola);
-                View.DisplayGoodsItems(peanuts);
+                View.DisplayGoodsItems(_chips);
+                View.DisplayGoodsItems(_cola);
+                View.DisplayGoodsItems(_peanuts);
+                View.DisplayGoodsItems(_chocolate);
                 View.PressQToGoBack();
 
                 var userInput = Console.ReadLine();
-                if (userInput.ToLower() == "q")
+                if (userInput != null && userInput.ToLower() == "q")
                 {
                     StartMenu();
                 }
@@ -87,19 +86,22 @@ namespace vending_machine
             }
         }
 
-        public void BuyItem(int itemId)
+        private void BuyItem(int itemId)
         {
-            GoodsItem item = chips;
+            GoodsItem item = _chips;
             switch (itemId)
             {
                 case 1:
-                    item = chips;
+                    item = _chips;
                     break;
                 case 2:
-                    item = cola;
+                    item = _cola;
                     break;
                 case 3:
-                    item = peanuts;
+                    item = _peanuts;
+                    break;
+                case 4:
+                    item = _chocolate;
                     break;
                 default:
                     View.InvalidOption();
@@ -131,7 +133,7 @@ namespace vending_machine
             ValidatePayment(item);
         }
 
-        public void ValidatePayment(GoodsItem item)
+        private void ValidatePayment(GoodsItem item)
         {
             if (item.Price > User.MoneyAvailable)
             {

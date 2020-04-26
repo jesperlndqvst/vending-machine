@@ -5,12 +5,12 @@ namespace vending_machine
 {
     public abstract class GoodsItem
     { 
-       public string Name { get; set; }
-       public int Price { get; set; }
-       public int Id { get; set; }
-       public int ItemsRemaining { get; set;}
-       public string VendedMessage { get; set; }
-       public string SoldOutMessage { get; set; }
+       public string Name { get; }
+       public int Price { get; }
+       public int Id { get; }
+       public int ItemsRemaining { get; private set;}
+       public string VendedMessage { get; }
+       public string SoldOutMessage { get; }
 
        protected GoodsItem(string name, int price, int id, int itemsRemaining)
        {

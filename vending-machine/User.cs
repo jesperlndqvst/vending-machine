@@ -5,7 +5,7 @@ namespace vending_machine
 {
     public class User
     {
-        public View View { get; set; }
+        private View View { get; set; }
         public int MoneyAvailable { get; set; }
         private readonly Dictionary<GoodsItem, int> _itemsAvailable = new Dictionary<GoodsItem, int>();
 

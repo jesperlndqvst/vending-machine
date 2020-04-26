@@ -50,17 +50,18 @@ namespace vending_machine
 
         public void GoodsItemSummary(GoodsItem item)
         {
+            Console.WriteLine();
             Console.WriteLine($"YOU HAVE CHOSEN {item.Name} FOR A COST OF ${item.Price}");
         }
 
         public void TransferFromAnotherAccount()
         {
             Console.WriteLine("TRANSFER MONEY FROM ANOTHER ACCOUNT? [Y/N]");
-            Console.WriteLine();
         }
 
         public void WhatDoYouWantToBuy()
         {
+            Console.WriteLine();
             Console.WriteLine("WHAT DO YOU WANT TO BUY?");
         }
 
@@ -82,7 +83,6 @@ namespace vending_machine
         public void InvalidAmount()
         {
             Console.WriteLine("INVALID AMOUNT");
-            Console.WriteLine();
         }
 
         public void HowMuchWithdraw()
@@ -93,22 +93,23 @@ namespace vending_machine
 
         public void NotBoughtAnything()
         {
+            Console.WriteLine();
             Console.WriteLine("YOU HAVE NOT BOUGHT ANYTHING!");
         }
 
         public void BoughtItems(Dictionary<GoodsItem, int> itemsAvailable)
         {
+            Console.WriteLine();
             Console.WriteLine("YOU HAVE BOUGHT: ");
             foreach (var item in itemsAvailable)
             {
-                Console.WriteLine($"{item.Key.Name} {item.Value}");
+                Console.WriteLine($"{item.Key.Name}: {item.Value}");
             }
         }
 
         public void VendedMessage(GoodsItem item)
         {
             Console.WriteLine($"{item.VendedMessage}");
-            Console.WriteLine();
         }
 
         public void SoldOutMessage(GoodsItem item)

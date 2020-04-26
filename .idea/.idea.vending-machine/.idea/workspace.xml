@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2956f5b1-6edf-4a4c-9662-371d185a532d" name="Default Changelist" comment="" />
+    <list default="true" id="2956f5b1-6edf-4a4c-9662-371d185a532d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vending-machine/Chocolate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vending-machine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vending-machine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vending-machine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vending-machine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vending-machine/Bank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/Bank.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vending-machine/GoodsItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/GoodsItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vending-machine/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vending-machine/VendingMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/VendingMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vending-machine/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/bin/Debug/netcoreapp3.1/vending-machine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vending-machine/obj/Debug/netcoreapp3.1/vending-machine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/obj/Debug/netcoreapp3.1/vending-machine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vending-machine/obj/Debug/netcoreapp3.1/vending-machine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/vending-machine/obj/Debug/netcoreapp3.1/vending-machine.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/vending-machine/Chocolate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/vending-machine/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/vending-machine/GoodsItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/vending-machine/VendingMachine.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,7 +41,6 @@
         <option value="$PROJECT_DIR$/vending-machine/Peanuts.cs" />
         <option value="$PROJECT_DIR$/vending-machine/Chip.cs" />
         <option value="$PROJECT_DIR$/vending-machine/Inventory.cs" />
-        <option value="$PROJECT_DIR$/vending-machine/GoodsItem.cs" />
         <option value="$PROJECT_DIR$/vending-machine/MainMenu.cs" />
         <option value="$PROJECT_DIR$/vending-machine/Menu.cs" />
         <option value="$PROJECT_DIR$/vending-machine/VendingMachineView.cs" />
@@ -33,8 +49,10 @@
         <option value="$PROJECT_DIR$/vending-machine/Peanut.cs" />
         <option value="$PROJECT_DIR$/vending-machine/Chips.cs" />
         <option value="$PROJECT_DIR$/vending-machine/User.cs" />
-        <option value="$PROJECT_DIR$/vending-machine/Bank.cs" />
+        <option value="$PROJECT_DIR$/vending-machine/Chocolate.cs" />
+        <option value="$PROJECT_DIR$/vending-machine/GoodsItem.cs" />
         <option value="$PROJECT_DIR$/vending-machine/VendingMachine.cs" />
+        <option value="$PROJECT_DIR$/vending-machine/Bank.cs" />
         <option value="$PROJECT_DIR$/vending-machine/View.cs" />
       </list>
     </option>
@@ -46,7 +64,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
@@ -82,33 +102,46 @@
       <workItem from="1585477232161" duration="22861000" />
       <workItem from="1585746522504" duration="361000" />
       <workItem from="1586017503437" duration="8466000" />
+      <workItem from="1587920898122" duration="25000" />
+      <workItem from="1587920981966" duration="3690000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="609" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585500017816">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="609" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1585500017816" />
-    <state width="1375" height="224" key="GridCell.Tab.0.bottom" timestamp="1586026146613">
+    <state width="1375" height="224" key="GridCell.Tab.0.bottom" timestamp="1587924706710">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1375" height="224" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1586026146613" />
-    <state width="1375" height="224" key="GridCell.Tab.0.center" timestamp="1586026146612">
+    <state width="1375" height="224" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587924706710" />
+    <state width="1375" height="224" key="GridCell.Tab.0.center" timestamp="1587924706710">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1375" height="224" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1586026146612" />
-    <state width="1375" height="224" key="GridCell.Tab.0.left" timestamp="1586026146612">
+    <state width="1375" height="224" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587924706710" />
+    <state width="1375" height="224" key="GridCell.Tab.0.left" timestamp="1587924706709">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1375" height="224" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1586026146612" />
-    <state width="1375" height="224" key="GridCell.Tab.0.right" timestamp="1586026146613">
+    <state width="1375" height="224" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587924706709" />
+    <state width="1375" height="224" key="GridCell.Tab.0.right" timestamp="1587924706710">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1375" height="224" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1586026146613" />
+    <state width="1375" height="224" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587924706710" />
     <state width="1027" height="345" key="GridCell.Tab.1.bottom" timestamp="1585549080986">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
